@@ -1,0 +1,12 @@
+name: platypus
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pandas
+  - duckdb
+  - pyarrow=17.0.0
+  - libarrow-flight=17.0.0
+  - python-dotenv
+  - simple-salesforce

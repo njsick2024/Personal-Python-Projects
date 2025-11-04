@@ -1,0 +1,33 @@
+# [build-system]
+# requires = ["setuptools", "wheel"]
+# build-backend = "setuptools.build_meta"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "platypus"
+version = "1.0.0"
+description = "A Python package for data engineering and analytics"
+authors = ["Nate Sickler"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "*"
+pandas = "*"
+polars = "*"
+duckdb = "*"
+pyarrow = "*"
+simple-salesforce = "*"
+rapidfuzz = "*"
+tableauhyperapi = {source = "pypi"}
+
+
+[tool.poetry.dev-dependencies]
+flake8 = "*"
+black = "*"
+pytest = "*"
+
+

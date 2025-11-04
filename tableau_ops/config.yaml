@@ -1,0 +1,14 @@
+smtp:
+  enabled: true
+  server: smtp.office365.com
+  port: 587
+  sender: your-email@domain.com
+  recipients:
+    - recipient1@.com
+    - recipient2@domain.com
+  username: your-email@domain.com
+  password: your-email-password
+refresh:
+  validate: true
+  retries: 3
+  retry_delay: 30  # seconds

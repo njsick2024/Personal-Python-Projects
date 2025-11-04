@@ -1,0 +1,17 @@
+name: platypus-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pandas
+  - duckdb
+  - polars
+  - pyarrow=17.0.0
+  - libarrow-flight=17.0.0
+  - python-dotenv
+  - simple-salesforce
+  - coverage
+  - pytest
+  - pytest-cov
+  - flake8
